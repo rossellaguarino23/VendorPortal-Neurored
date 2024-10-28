@@ -1,0 +1,24 @@
+:root{
+    --bs-font-sans-serif: "Nunito Sans", sans-serif;
+    --bs-primary: #072eb4;
+    --bs-link-color: #072eb4;
+    --bs-primary-rgb: 7, 46, 180;
+    --bs-link-color-rgb: 7, 46, 180;
+    --bs-success-rgb: 9, 174, 23;
+    --bs-success-bg-subtle: #D8FDDA;
+    --bs-warning-rgb: 255,180,2;
+    --bs-warning-bg-subtle: #fff0cc;
+    --bs-danger-rgb: 224, 61, 66;
+    --bs-danger-bg-subtle: #fcd4cf
+}
+
+main{
+    width: 85%;
+    margin: 0 auto;
+}
+.scrollable-card{
+    max-height: 300px;
+}
+.bi::before, [class*=" bi-"]::before, [class^=bi-]::before{
+    line-height: inherit;
+}
